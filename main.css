@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+.calculator {
+  background: #61B34F;
+  color: white;
+  width: 330px;
+  height: 400px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.clear {
+  flex: 1;
+}
+
+.screen {
+  flex: 3;
+}
+
+.top-row, .buttons > span {
+  height: 80px;
+}
+
+.buttons > span {
+  height: 80px;
+  width: 82px;
+  border: 1px solid black;
+  margin: 0;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.operator {
+  color: #3E5E36;
+  background: #82C276;
+}
