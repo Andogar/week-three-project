@@ -24,9 +24,10 @@
 #output-results {
   line-height: 3.3;
   padding-right: 35px;
+  max-width: 210px;
 }
 
-.calc-button, .clear {
+.calc-button, .clear, .square-root {
   flex: 1;
   height: 80px;
   background: #64B255;
