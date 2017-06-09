@@ -11,10 +11,7 @@ var storedValues = '';
 
 for (var i = 0; i < buttonInput.length; i++) {
   buttonInput[i].onclick = function(event) {
-		var buttonVal = this.innerHTML;
-    if (buttonVal == "x") {
-      buttonVal = "*";
-    }
+    var buttonVal = this.value;
     storedValues += buttonVal;
     outputResults.innerHTML += buttonVal;
   }
@@ -27,5 +24,6 @@ for (var i = 0; i < buttonInput.length; i++) {
   equalsButton.onclick = function(event) {
     var evaluation = eval(storedValues);
     outputResults.innerHTML = evaluation;
+    storedValues = evaluation;
   }
 }
