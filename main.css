@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-.grid {
+.row {
   display: flex;
   width: 330px;
   border-collapse: collapse;
@@ -21,12 +21,12 @@
   color: white;
 }
 
-.output-results {
+#output-results {
   line-height: 3.3;
   padding-right: 35px;
 }
 
-.grid-cell {
+.calc-button, .clear {
   flex: 1;
   height: 80px;
   background: #64B255;
