@@ -6,29 +6,33 @@
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
-    <div class="calculator">
-      <div class="top row">
-        <span class="clear">C</span>
-        <div class="screen"></div>
-      </div>
-      <div class="buttons">
-        <span>7</span>
-        <span>8</span>
-        <span>9</span>
-        <span class="operator">/</span>
-        <span>4</span>
-        <span>5</span>
-        <span>6</span>
-        <span class="operator">x</span>
-        <span>1</span>
-        <span>2</span>
-        <span>3</span>
-        <span class="operator">-</span>
-        <span>0</span>
-        <span>.</span>
-        <span class="eval">=</span>
-        <span class="operator">+</span>
-      </div>
+    <div class="Grid">
+      <button type="button" name="button" class="Grid-cell clear">C</button>
+      <div class="output"></div>
+    </div>
+    <div class="Grid">
+      <button type="button" name="button" class="Grid-cell">7</button>
+      <button type="button" name="button" class="Grid-cell">8</button>
+      <button type="button" name="button" class="Grid-cell">9</button>
+      <button type="button" name="button" class="Grid-cell operator">/</button>
+    </div>
+    <div class="Grid">
+      <button type="button" name="button" class="Grid-cell">4</button>
+      <button type="button" name="button" class="Grid-cell">5</button>
+      <button type="button" name="button" class="Grid-cell">6</button>
+      <button type="button" name="button" class="Grid-cell operator">X</button>
+    </div>
+    <div class="Grid">
+      <button type="button" name="button" class="Grid-cell">1</button>
+      <button type="button" name="button" class="Grid-cell">2</button>
+      <button type="button" name="button" class="Grid-cell">3</button>
+      <button type="button" name="button" class="Grid-cell operator">-</button>
+    </div>
+    <div class="Grid">
+      <button type="button" name="button" class="Grid-cell">0</button>
+      <button type="button" name="button" class="Grid-cell">.</button>
+      <button type="button" name="button" class="Grid-cell equals-button">=</button>
+      <button type="button" name="button" class="Grid-cell operator">+</button>
     </div>
 
     <script type="text/javascript" src="main.js">
