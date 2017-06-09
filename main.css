@@ -2,71 +2,47 @@
   box-sizing: border-box;
 }
 
-.Grid {
+.grid {
   display: flex;
-  background: #61B34F;
-  color: white;
   width: 330px;
   border-collapse: collapse;
   text-align: center;
   line-height: 2;
-  font-size: 2.5rem;
 }
 
-.output {
+.output-window {
   flex: 3;
-  background: lightgreen;
-  border: 1px solid black;
+  background: #64B255;
+  margin: 1px 1px 0 0;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 1.5rem;
+  text-align: right;
+  line-height: 3;
+  color: white;
 }
 
-.Grid-cell {
+.output-results {
+  line-height: 3.3;
+  padding-right: 35px;
+}
+
+.grid-cell {
   flex: 1;
-  border: 1px solid black;
-  background: green;
   height: 80px;
+  background: #64B255;
+  color: white;
+  margin: 1px 1px 0 0;
 }
 
 .operator {
-  color: #3E5E36;
+  color: #55a044;
   background: #82C276;
 }
 
 button {
   padding: 0;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   outline: none;
+  font-family: Tahoma, Geneva, sans-serif;
+  border: none;
 }
-
-/*.calculator {
-
-  width: 330px;
-  height: 400px;
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.clear {
-  flex: 1;
-}
-
-.screen {
-  flex: 3;
-}
-
-.top-row, .buttons > span {
-  height: 80px;
-}
-
-.buttons > span {
-  height: 80px;
-  width: 82px;
-  border: 1px solid black;
-  margin: 0;
-}
-
-.buttons {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-*/
